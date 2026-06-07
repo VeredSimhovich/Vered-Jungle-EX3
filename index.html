@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vered Simhovich Jungle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bg-music" src="assets/audio/background-jungle.mp3" loop></audio>
+
+    <header>
+        <h1>Welcome to My Jungle! 🦁</h1>
+        <p>Click on an animal or press the corresponding key to hear its sound</p>
+    </header>
+
+    <main class="jungle-container">
+        
+        <div class="animal-card" data-key="L" data-sound="lion">
+            <img src="assets/images/lion.jpg" alt="Lion">
+            <div class="info">
+                <h3>Lion</h3>
+                <span class="key-hint">Key: L</span>
+            </div>
+            <audio id="lion" src="assets/audio/lion.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="M" data-sound="monkey">
+            <img src="assets/images/monkey.jpg" alt="Monkey">
+            <div class="info">
+                <h3>Monkey</h3>
+                <span class="key-hint">Key: M</span>
+            </div>
+            <audio id="monkey" src="assets/audio/monkey.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="E" data-sound="elephant">
+            <img src="assets/images/elephant.jpg" alt="Elephant">
+            <div class="info">
+                <h3>Elephant</h3>
+                <span class="key-hint">Key: E</span>
+            </div>
+            <audio id="elephant" src="assets/audio/elephant.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="S" data-sound="snake">
+            <img src="assets/images/snake.jpg" alt="Snake">
+            <div class="info">
+                <h3>Snake</h3>
+                <span class="key-hint">Key: S</span>
+            </div>
+            <audio id="snake" src="assets/audio/snake.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="P" data-sound="parrot">
+            <img src="assets/images/parrot.jpg" alt="Parrot">
+            <div class="info">
+                <h3>Parrot</h3>
+                <span class="key-hint">Key: P</span>
+            </div>
+            <audio id="parrot" src="assets/audio/parrot.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="T" data-sound="tiger">
+            <img src="assets/images/tiger.jpg" alt="Tiger">
+            <div class="info">
+                <h3>Tiger</h3>
+                <span class="key-hint">Key: T</span>
+            </div>
+            <audio id="tiger" src="assets/audio/tiger.mp3"></audio>
+        </div>
+
+        <div class="animal-card" data-key="F" data-sound="frog">
+            <img src="assets/images/frog.jpg" alt="Frog">
+            <div class="info">
+                <h3>Frog</h3>
+                <span class="key-hint">Key: F</span>
+            </div>
+            <audio id="frog" src="assets/audio/frog.mp3"></audio>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
